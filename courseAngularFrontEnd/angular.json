@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "courseAngularFrontEnd"
+    }
+  },
+  "defaultProject": "courseAngularFrontEnd",
+  "cli": {
+    "analytics": false
+  }
 }
