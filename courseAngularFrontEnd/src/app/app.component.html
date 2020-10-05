@@ -1,4 +1,5 @@
-<title>course-Angular</title>
-
-<h1>Mi primera app</h1>
-<app-post-create></app-post-create>
+<app-header></app-header>
+<main>
+  <app-post-create (postCreated)= "onPostAdded($event)" ></app-post-create>
+  <app-post-list></app-post-list>
+</main>
